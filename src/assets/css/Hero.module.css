@@ -1,0 +1,96 @@
+.sectionHero {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ff5200;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    
+}
+
+.articleHero {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.DivHeadingHero {
+    padding-top: 100px;
+    width: 70%;
+    text-align: center;
+}
+
+.DivHeadingHero h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.SearchBarHero {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.divLoc {
+    width: 34%;
+    height: 65px;
+    background: white;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    padding: 0 18px;
+    gap: 12px;
+}
+
+.divItems {
+    width: 60%;
+    height: 65px;
+    background: white;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    padding: 0 18px;
+    gap: 12px;
+}
+
+.inputLoc,
+.inputItem {
+    flex: 1;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    background: transparent;
+}
+
+.inputLoc::placeholder,
+.inputItem::placeholder {
+    color: #777;
+}
+
+.divLoc svg,
+.divItems svg {
+    cursor: pointer;
+}
+
+.cardContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+
+.cardImg{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px; 
+   
+}

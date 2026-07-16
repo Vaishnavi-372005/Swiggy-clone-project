@@ -1,0 +1,120 @@
+.divSliderSwiperParent {
+  position: relative;
+  height: 60vh;
+  background: #ffffff;
+  font-family:
+    Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+  font-size: 14px;
+  color: #fff;
+  margin: 150px;
+  padding: 0;
+}
+.SlideHeading h1{
+  color: black;
+  margin-bottom: 30px;
+}
+
+.mySwiper {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mySwiper :GLobal(.swiper-slide){
+  text-align: center;
+  font-size: 18px;
+  background: #444;
+  height: calc((100% - 30px) / 2) !important;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foodCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* .foodCard:hover{
+    transform: scale(1.08);
+} */
+
+.foodCard img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.foodCard p{
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #3d4046;
+    text-align: center;
+}
+
+/* Swiper Slide */
+
+.swiper-slide{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Navigation Buttons */
+
+.swiperBtn{
+    width: 42px;
+    height: 42px;
+    border: none;
+    border-radius: 50%;
+    background: #e9e9e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.swiperBtn:hover{
+    background: #d9d9d9;
+}
+
+.btnContainer{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    gap: 12px;
+}
+
+:global(.swiper-button-next),
+:global(.swiper-button-prev) {
+  width: 45px;
+  height: 45px;
+  background: #e9e9e9;
+  border-radius: 50%;
+  color: #333;
+}
+
+:global(.swiper-button-next::after),
+:global(.swiper-button-prev::after) {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Hide Pagination */
+
+/* .swiper-pagination{
+    display: none;
+} */

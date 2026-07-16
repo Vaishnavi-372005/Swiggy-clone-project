@@ -1,0 +1,112 @@
+.navbar {
+    width: 100%;
+    height: 90px;
+    background-color: #ff5200;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 90px;
+    box-sizing: border-box;
+}
+
+/* ---------- Left ---------- */
+
+.navLeftPart {
+    display: flex;
+    align-items: center;
+}
+
+.navLeftPart img {
+    height: 52px;
+    cursor: pointer;
+}
+
+/* ---------- Right ---------- */
+
+.navRightPart {
+    display: flex;
+    align-items: center;
+}
+
+.navRightPart article {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+/* ---------- Links ---------- */
+
+.headingH2 {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.headingH2 h2 {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.headingH2 h2:hover {
+    opacity: 0.8;
+}
+
+/* ---------- Get App Button ---------- */
+
+.btn1 {
+    height: 58px;
+    width: 170px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    border-radius: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.btn1:hover {
+    background: rgba(255,255,255,.08);
+}
+
+/* ---------- Sign In ---------- */
+
+.btn2 {
+    width: 150px;
+    height: 58px;
+
+    background: black;
+    color: white;
+
+    border: none;
+    border-radius: 16px;
+
+    font-size: 18px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.btn2:hover {
+    background: #222;
+}
+
+/* ---------- Icon ---------- */
+
+.arrowIcon {
+    transform: rotate(-45deg);
+}
+
