@@ -5,6 +5,19 @@ import { MapPin, Search, ChevronDown } from "lucide-react";
 const Hero = () => {
   return (
     <section className={Style.sectionHero}>
+       {/* Background Images */}
+      <img
+        src="/Veggies_new.avif"
+        alt="left"
+        className={Style.leftBg}
+      />
+
+      <img
+        src="/Sushi_replace.avif"
+        alt="right"
+        className={Style.rightBg}
+      />
+
       <article className={Style.articleHero}>
         <div className={Style.DivHeadingHero}>
           <h1>

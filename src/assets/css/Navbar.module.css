@@ -5,8 +5,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 90px;
+    padding: 60px 150px;
     box-sizing: border-box;
+
 }
 
 /* ---------- Left ---------- */

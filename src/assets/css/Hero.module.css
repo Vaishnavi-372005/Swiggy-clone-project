@@ -13,7 +13,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 40px;
+    gap: 40px;  
+    position: relative;
+    z-index: 2;
 }
 
 .DivHeadingHero {
@@ -93,4 +95,19 @@
     height: 100%;
     border-radius: 30px; 
    
+}
+.leftBg {
+  position: absolute;
+  left: -30px;
+  top: 100px;
+  width: 280px;
+  z-index: 1;
+}
+
+.rightBg {
+  position: absolute;
+  right: -30px;
+  top: 100px;
+  width: 280px;
+  z-index: 1;
 }
