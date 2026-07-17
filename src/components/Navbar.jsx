@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className={Style.navbar}>
         <div className={Style.navLeftPart}>
-            <img src='/public/swiggy_logo_white.avif' height="52px"/>
+            <img src='/swiggy_logo_white.avif' height="52px"/>
 
         </div>
         <div className={Style.navRightPart}>

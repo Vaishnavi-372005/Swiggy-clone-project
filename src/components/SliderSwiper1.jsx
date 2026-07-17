@@ -43,107 +43,107 @@ const swiperRef = useRef(null);
             fill: "row",
         }}
         spaceBetween={20}
-        modules={[]}
+        modules={[Grid]}
         className={Style.mySwiper}>
       
       <SwiperSlide> 
           <div className={Style.foodCard}>
-              <img src="/public/Biryani.avif" alt="Biryani" />
+              <img src="/Biryani.avif" alt="Biryani" />
           </div>
       </SwiperSlide>
       <SwiperSlide> 
           <div className={Style.foodCard}>
-              <img src="/public/Cake.avif" alt="Cake" />
+              <img src="/Cake.avif" alt="Cake" />
           </div>
       </SwiperSlide>
       <SwiperSlide> 
           <div className={Style.foodCard}>
-              <img src="/public/Chole Bhature.avif" alt="Chole Bhature" />
+              <img src="/Chole Bhature.avif" alt="Chole Bhature" />
           </div>
       </SwiperSlide>
       <SwiperSlide> 
           <div className={Style.foodCard}>
-              <img src="/public/Coffee.avif" alt="Coffee" />
+              <img src="/Coffee.avif" alt="Coffee" />
           </div>
       </SwiperSlide>
       <SwiperSlide> 
           <div className={Style.foodCard}>
-              <img src="/public/Dhokla.avif" alt="Dhokla" />
+              <img src="/Dhokla.avif" alt="Dhokla" />
           </div>
       </SwiperSlide>
       <SwiperSlide> 
           <div className={Style.foodCard}>
-              <img src="/public/Omelette.avif" alt="Omelette" />
+              <img src="/Omelette.avif" alt="Omelette" />
           </div>
       </SwiperSlide>
       <SwiperSlide> 
           <div className={Style.foodCard}>
-              <img src="/public/Dosa.avif" alt="Dosa" />
+              <img src="/Dosa.avif" alt="Dosa" />
           </div>
       </SwiperSlide>
       <SwiperSlide> 
           <div className={Style.foodCard}>
-              <img src="/public/Idli.avif" alt="Idli" />
+              <img src="/Idli.avif" alt="Idli" />
           </div>
       </SwiperSlide>
       <SwiperSlide> 
           <div className={Style.foodCard}>
-              <img src="/public/Juice.avif" alt="Juice" />
+              <img src="/Juice.avif" alt="Juice" />
           </div>
       </SwiperSlide>
       <SwiperSlide> 
           <div className={Style.foodCard}>
-              <img src="/public/Kachori.avif" alt="Kachori" />
+              <img src="/Kachori.avif" alt="Kachori" />
           </div>
       </SwiperSlide>
       <SwiperSlide> 
           <div className={Style.foodCard}>
-              <img src="/public/Khichdi.avif" alt="Khichdi" />
+              <img src="/Khichdi.avif" alt="Khichdi" />
           </div>
       </SwiperSlide>
       <SwiperSlide> 
           <div className={Style.foodCard}>
-              <img src="/public/Pakoda.avif" alt="Pakoda" />
+              <img src="/Pakoda.avif" alt="Pakoda" />
           </div>
       </SwiperSlide>
       <SwiperSlide> 
           <div className={Style.foodCard}>
-              <img src="/public/Paratha.avif" alt="Paratha" />
+              <img src="/Paratha.avif" alt="Paratha" />
           </div>
       </SwiperSlide>
       <SwiperSlide> 
           <div className={Style.foodCard}>
-              <img src="/public/Pav Bhaji.avif" alt="Pav Bhaji" />
+              <img src="/Pav Bhaji.avif" alt="Pav Bhaji" />
           </div>
       </SwiperSlide>
       <SwiperSlide> 
           <div className={Style.foodCard}>
-              <img src="/public/Poha.avif" alt="Poha" />
+              <img src="/Poha.avif" alt="Poha" />
           </div>
       </SwiperSlide>
       <SwiperSlide> 
           <div className={Style.foodCard}>
-              <img src="/public/Poori.avif" alt="Poori" />
+              <img src="/Poori.avif" alt="Poori" />
           </div>
       </SwiperSlide>
       <SwiperSlide> 
           <div className={Style.foodCard}>
-              <img src="/public/Salad.avif" alt="Salad" />
+              <img src="/Salad.avif" alt="Salad" />
           </div>
       </SwiperSlide>
       <SwiperSlide> 
           <div className={Style.foodCard}>
-              <img src="/public/Tea.avif" alt="Tea" />
+              <img src="/Tea.avif" alt="Tea" />
           </div>
       </SwiperSlide>
       <SwiperSlide> 
           <div className={Style.foodCard}>
-              <img src="/public/Upma.avif" alt="Upma" />
+              <img src="/Upma.avif" alt="Upma" />
           </div>
       </SwiperSlide>
       <SwiperSlide> 
           <div className={Style.foodCard}>
-              <img src="/public/Vada.avif" alt="Vada" />
+              <img src="/Vada.avif" alt="Vada" />
           </div>
       </SwiperSlide>      
       </Swiper>

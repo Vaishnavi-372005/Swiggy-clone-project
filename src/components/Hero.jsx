@@ -41,15 +41,15 @@ const Hero = () => {
 <div className={Style.cardContainer}>
 
   <div>
-       <img src="/public/one.avif" alt="Food Delivery" className={Style.cardImg} />
+       <img src="/one.avif" alt="Food Delivery" className={Style.cardImg} />
   </div>
 
   <div >
-        <img src="/public/two.avif" alt="Instamart" className={Style.cardImg} />
+        <img src="/two.avif" alt="Instamart" className={Style.cardImg} />
   </div>
 
   <div>
-    <img src="/public/three.avif" alt="Dineout" className={Style.cardImg} />
+        <img src="/three.avif" alt="Dineout" className={Style.cardImg} />
   </div>
 
 </div>
